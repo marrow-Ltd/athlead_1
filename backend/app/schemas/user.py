@@ -32,8 +32,9 @@ class UserRead(BaseModel):
 class Token(BaseModel):
     access_token: str
     token_type: str = "bearer"
-    user: UserRea
+    user: UserRead
+
 
 class GoogleAuthRequest(BaseModel):
     id_token: str
-    role: UserRole = UserRole.student   # only used the first time this Google account signs in  
+    role: UserRole = UserRole.student   # only used the first time this Google account signs in
