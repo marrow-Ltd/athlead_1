@@ -7,6 +7,7 @@ frontend/.env.local
 backend/__pycache__/
 backend/**/__pycache__/
 backend/.venv/
+backend/venv/
 backend/.env
 backend/*.egg-info/
 backend/.pytest_cache/
@@ -25,8 +26,8 @@ mobile/.env
 # TypeScript
 *.tsbuildinfo
 
-
 .venv/
+venv/
 __pycache__/
 *.pyc
 .env
