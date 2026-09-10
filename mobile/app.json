@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "AthliQ",
+    "slug": "athliq-mobile",
+    "scheme": "athliq",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["expo-router"],
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.athliq.mobile" },
+    "android": { "package": "com.athliq.mobile" },
+    "extra": {
+      "apiBaseUrl": "http://localhost:8000"
+    }
+  }
+}

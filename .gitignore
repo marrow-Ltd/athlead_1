@@ -1,0 +1,26 @@
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+# Backend
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.venv/
+backend/.env
+backend/*.egg-info/
+backend/.pytest_cache/
+
+# Mobile
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/.env
+
+# General
+.DS_Store
+*.pyc
+
+# TypeScript
+*.tsbuildinfo
